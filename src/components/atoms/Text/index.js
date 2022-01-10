@@ -14,9 +14,3 @@ export const Sub = () => {
     <SubTitulo>Que a força esteja com você</SubTitulo>
   );
 }
-
-// export const SubTit = ({}) =>{
-//   return (
-//     <TittleSub>Que a força esteja com você</TittleSub>
-//   );
-// }

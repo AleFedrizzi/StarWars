@@ -1,23 +1,12 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-import { Logo, Sub, Text } from '../../components';
+import { Logo, Sub, Text, Container } from '../../components';
 
 export const SplashScreen = () => {
   return (
-    <View style={styles.container}>
+    <Container align='center' justify='center'>
       <Logo />
       <Text>Star Wars</Text>
       <Sub />
-    </View>
+    </Container>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#161616',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-
-});
